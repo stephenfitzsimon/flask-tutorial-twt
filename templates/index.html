@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <header>
-        <title>HTML Flask Tutorial</title>
-    </header>
-    <main>
-        <head>
-            <h1>Heading for website</h1>
-        </head>
-        <body>
-            <p>Here is some paragraph text</p>
-            {% for i in content %}
-                <p>Hello {{i}}</p>
-            {% endfor %}
-        </body>
-    </main>
-</html>
+{% extends "base.html" %}
+{% block title %} Homepage {% endblock %}
+{% block content %} 
+<h2>webpage content</h2> 
+{% endblock %}

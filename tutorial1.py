@@ -11,8 +11,6 @@ def home():
     #recall that {{}} will be replaced with the parameter
     return render_template("index.html", content = ["tim", "joe", "bill"])
 
-
-
 # # tag the parameter for the function in the decorator
 # # so that the parameter can be passed by the URL
 # @app.route("/<name>")
